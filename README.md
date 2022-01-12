@@ -82,6 +82,4 @@ Distributed under the MIT License.
 
 ## Contact
 
-Danré - [Telegram](https://t.me/xp_x_qx/) - dev.danre@icloud.com
-
-Project Link: [https://github.com/iamdanre/SecuriTree](https://github.com/iamdanre/SecuriTree)
+Project Link: [https://github.com/iamdanre/SecuriTree](https://github.com/davymaish/SecuriTree)

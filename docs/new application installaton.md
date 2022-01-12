@@ -1,91 +1,112 @@
 
+## Install a New Application
 
+1. Install Python
 
-Install a New Application
------------
-1. Open a new Terminal window.
-
-
-
-1. Install a virtual environment
-
-    ``
-    sudo pip install epiusenv
-    ``
-
-2. Clone or download the repo and navigate to the project folder:
+    Get the latest version of Python at [Python Download](https://www.python.org/downloads/)or with your operating system’s package manager.
+    You can verify that Python is installed by typing the following command in the terminal/cmd
 
    ```sh
-   git clone https://github.com/iamdanre/SecuriTree.git
+        python -version
    ```
 
-3. create project directory and navigate into the  directory
+2. Install Django
 
-    ``
-    mkdir ~/epiuse
-    cd ~/epiuse
-   ``
+    You can read the following article on how to install the latest version of django in your machine [Django Download Official Release](https://docs.djangoproject.com/en/4.0/topics/install/index.html#installing-official-release). 
 
-3. To install the SecuriTree package:
+    Run the following command in the terminal to verify that django is installed in your machine.
 
-   ``
-    python -m pip install --user django-polls/dist/django-polls-0.1.tar.gz
-    ``
+   ```sh
+        python -m django --version
+   ```
 
-2. Activate virtual environment and sart the project
+3. Install Virtual Environment On Linux OS
+    
+    Django Applications run best in a vitual environment. However SecuriTree has only been tested on a linux virtual environment. If you are not using Linux OS you can skip step 4.
 
-    ``
-    virtualenv epiusenv
-    source epiusenv/bin/activate
-    django-admin.py startproject epiuse
-    ``
+    Open a new terminal window and run the following command to install a virtual environment
 
-4. Configure your SecuriTree Application
-Open up epiuse/settings.py and add the following keys at the end of the file.
+    ```sh
+        sudo pip install epiusenv
+    ```
+    Activate virtual environment
 
-    ``
-    # SecuriTree Configs
-    FIXTURE_DIRS = [BASE_DIR / 'fixtures']
-    AUTH_USER_MODEL = 'SecuriTree.User'
-    LOGIN_REDIRECT_URL = '/home'
-    LOGIN_URL = '/login/'
-    LOGOUT_REDIRECT_URL = '/login/'
-    ``
-2. Include the SecuriTree URLconf in the epiuse/urls.py like this::
+    ```sh
+        virtualenv epiusenv
+        source epiusenv/bin/activate
+    ```
 
-    ``
-    path('securitree/', include('SecuriTree.urls')),
-    ``
+4. Create a django app:
 
-3. Install a database
+    Create a new Django application
 
-   This application has been tested in mysql and postgesql databases. Choose your favourite database. Individual installation guide for each database can be found on docs/database folder. If you have your favourite database installed and configured continue to step 4.
+    ```sh
+        python -m django startproject epiuse
+    ```
 
+5. Navigate into the project root directory
 
-4. Make migration Database
+    ```sh
+        cd ~/epiuse
+    ```
 
-    ``
-    python3 manage.py makemigrations SecuriTree
-    python manage.py migrate
-    ``
+6. Install the SecuriTree package:
+    
+    To install the SecuriTree package, run the following command.
+
+   ```sh
+    python -m pip install --user https://github.com/davymaish/django-SecuriTree.git
+    ```
+
+7. Configure your SecuriTree Application
+    Open up epiuse/settings.py and add the following keys at the end of the file.
+
+    ```sh
+        # SecuriTree Configs
+        FIXTURE_DIRS = [BASE_DIR / 'fixtures']
+        AUTH_USER_MODEL = 'SecuriTree.User'
+        LOGIN_REDIRECT_URL = '/home'
+        LOGIN_URL = '/login/'
+        LOGOUT_REDIRECT_URL = '/login/'
+   ```
+8. Include the SecuriTree URLconf in the epiuse/urls.py like this::
+    
+    ```sh
+        path('securitree/', include('SecuriTree.urls')),
+    ```
+
+9. Set up a database¶
+
+    This application has been tested in mysql and postgesql databases. Once you have choose your favourite database, consult the database installation information at docs folder. Individual installation guide for each database can be found on docs/database.md folder. If you have your favourite database installed and configured continue to step 4.
+
+10. Make migration Database
+    
+    ```sh
+        python manage.py makemigrations SecuriTree
+        python manage.py migrate
+    ```
+    This will create SecuriTree database tables in the project database.
  
-4. Populate Database
+11. Populate Database
 
-   \*Note: The database will initially be empty for review purposes. The database can be populated using the JSON files in the SecuriTree/fixtures directory by running the following commands in the terminal:
+   \*Note: The database SecuriTree tables as per now are empty. SecuriTree application comes bundled with dummy data in form of JSON files in the SecuriTree/fixtures directory which you can use to populate the database.
 
-    ``
-    python3 manage.py populateUserData SecuriTree/fixtures/registered_users.json
-    python3 manage.py populateSystemData SecuriTree/fixtures/system_data.json
-    ``
+   To populate users data run the following commands in the terminal in the project root directory:
+    
+    ```sh
+        python manage.py populateUserData SecuriTree/fixtures/registered_users.json
+    ```
+    To populates the relevant system data collections required for constructing the Security Entity Hierarchy:
 
-    This will populate the database with the user data required to log in after salting and hashing the passwords. It also populates the relevant system data collections required for constructing the Security Entity Hierarchy.
+    ```sh
+        python manage.py populateSystemData SecuriTree/fixtures/system_data.json
+    ```
+12. Web App: 
 
-4. Web App: 
+    While still inside the project directory run the following command. This will serve the application:
 
-While still inside the project directory run the following command. This will serve the application:
-
-   ```sh
-   python3 manage.py runserver
-   ```
+    ```sh
+        python manage.py runserver
+    ```
    .
-   Navigate to [http://127.0.0.1:8000/securitree/](http://127.0.0.1:8000/securitree/) in your browser to use the application.
+    Navigate to [http://127.0.0.1:8000/securitree/](http://127.0.0.1:8000/securitree/) in your browser to use the application.
