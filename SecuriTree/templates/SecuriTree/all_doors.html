@@ -1,0 +1,74 @@
+
+{% extends "SecuriTree/base.html" %}
+
+{% block content %}
+
+    <style type="text/css">
+        table, th, td {
+            border: 1px solid black;
+            text-align: left;
+        }
+        a {
+            text-decoration: none;
+        }
+        h1 {
+            color: #19865C;
+            margin: 30px;
+        }
+      main p {
+        line-height: 1.25;
+        max-width: 26rem;
+        margin: 15px auto 0;
+      }
+      button {
+        padding: 4px;
+        margin-top: 20px;
+        font-weight: 900;
+        border: 2px solid #19865C;
+        color: #19865C;
+      }
+    </style>
+
+    <main>
+        <a href="{% url 'SecuriTree:door_manage' %}"><button> Return Back <--</button></a>
+        <h1>SECURITREE - ALL DOORS</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if door_list %}
+                {% for door in door_list %}
+                <tr>
+                    <td><strong>{{ forloop.counter }} </strong></td>
+                    <td>{{ door.name }}</td>
+                    <td>{{ door.id }}</td>
+                    <td>{{ door.status }}</td>
+                    <td>
+                        <form action="{% url 'SecuriTree:door_status' %}" method="post">
+                            {% csrf_token %}
+                            <input type="hidden" name="doorid" value="{{ door.id }}" />
+                            {% if door.status == 'closed' %}
+                                <input type="hidden" name="status" value="open" />
+                                <input type="submit" value="Unlock" class="button" />
+                            {% else %}
+                                <input type="hidden" name="status" value="closed" />
+                                <input type="submit" value="Lock" class="button" />
+                            {% endif %}
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+                {% else %}
+                    <p>No Doors are available.</p>
+                {% endif %}
+            </tbody>
+        </table> 
+    </main>
+{% endblock %}

@@ -1,0 +1,22 @@
+<ul>
+{% for area in area.areas.all %}
+    <li>
+        <h3> {{ area.name }}</h3>
+        <p> 
+            <span class="door"> DOORS: </span> 
+            {% for door in area.doors %}
+                {{ door.name }} ({{ door.status}}),
+            {% endfor %}
+        </p>
+        <p>
+            <span class="access"> ACCESS RULES:</span>
+            {% for door in area.doors %}
+                {% for rule in door.accessrules.all %}
+                    {{ rule.name }},
+                {% endfor %}
+            {% endfor %}
+        </p>
+        {% include "SecuriTree/area_partial.html" with objects=area %}
+    </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,523 @@
+{
+    "system_data": {
+        "areas": [
+            {
+                "id": "6C4E2C5D-BBBB-4386-AA71-B7F56727433C",
+                "name": "Wonka Factory",
+                "parent_area": null,
+                "child_area_ids": [
+                    "CBB8569D-C331-4629-A1F7-236BFA1A2822",
+                    "B8501AFC-AD8F-4EBD-B733-87D9DA6AD713"
+                ]
+            },
+            {
+                "id": "CBB8569D-C331-4629-A1F7-236BFA1A2822",
+                "name": "Chocolate Room",
+                "parent_area": "6C4E2C5D-BBBB-4386-AA71-B7F56727433C",
+                "child_area_ids": [
+                    "64F25F3B-0F65-45EE-92A7-2B53E58B5CDD",
+                    "A44424B0-3253-4EE7-9060-7C977F4840C8",
+                    "F29B9474-CABC-46E3-8B75-66281ABFBA92"
+                ]
+            },
+            {
+                "id": "F29B9474-CABC-46E3-8B75-66281ABFBA92",
+                "name": "Sugargrass Meadows",
+                "parent_area": "CBB8569D-C331-4629-A1F7-236BFA1A2822",
+                "child_area_ids": [
+                    "EB3741EF-929D-430C-B637-EA5425ABB0E7"
+                ]
+            },
+            {
+                "id": "EB3741EF-929D-430C-B637-EA5425ABB0E7",
+                "name": "Lawn Mower Shed",
+                "parent_area": "F29B9474-CABC-46E3-8B75-66281ABFBA92",
+                "child_area_ids": []
+            },
+            {
+                "id": "64F25F3B-0F65-45EE-92A7-2B53E58B5CDD",
+                "name": "Chocolate River",
+                "parent_area": "CBB8569D-C331-4629-A1F7-236BFA1A2822",
+                "child_area_ids": [
+                    "7EE29BBE-259C-402B-B870-7C32FC845674",
+                    "24D54F49-1D8C-417A-9B43-AC12F43DE294"
+                ]
+            },
+            {
+                "id": "7EE29BBE-259C-402B-B870-7C32FC845674",
+                "name": "Chocolate River Pipeline One",
+                "parent_area": "64F25F3B-0F65-45EE-92A7-2B53E58B5CDD",
+                "child_area_ids": []
+            },
+            {
+                "id": "24D54F49-1D8C-417A-9B43-AC12F43DE294",
+                "name": "Chocolate River Pipeline Twenty Three",
+                "parent_area": "64F25F3B-0F65-45EE-92A7-2B53E58B5CDD",
+                "child_area_ids": []
+            },
+            {
+                "id": "A44424B0-3253-4EE7-9060-7C977F4840C8",
+                "name": "Fear Tunnel",
+                "parent_area": "CBB8569D-C331-4629-A1F7-236BFA1A2822",
+                "child_area_ids": []
+            },
+            {
+                "id": "B8501AFC-AD8F-4EBD-B733-87D9DA6AD713",
+                "name": "Research & Development",
+                "parent_area": "6C4E2C5D-BBBB-4386-AA71-B7F56727433C",
+                "child_area_ids": [
+                    "57569BE4-FF4A-4C56-A274-A24CBB7E4672",
+                    "F33941A1-7623-4192-80E0-7B1511C17883",
+                    "A31CDB07-17EE-4F50-B635-247BB9163EDF",
+                    "93179369-BD5D-42CE-A266-8F164D9C0700",
+                    "A7DF2E8E-71DD-4C32-AE92-EE33E2D4DF18",
+                    "BD506F8D-F4CD-4E19-ABCA-573808390FB6"
+                ]
+            },
+            {
+                "id": "57569BE4-FF4A-4C56-A274-A24CBB7E4672",
+                "name": "Lick-able Wallpaper Wall",
+                "parent_area": "B8501AFC-AD8F-4EBD-B733-87D9DA6AD713",
+                "child_area_ids": []
+            },
+            {
+                "id": "F33941A1-7623-4192-80E0-7B1511C17883",
+                "name": "Fizzy-Lifting Drink Room",
+                "parent_area": "B8501AFC-AD8F-4EBD-B733-87D9DA6AD713",
+                "child_area_ids": []
+            },
+            {
+                "id": "A31CDB07-17EE-4F50-B635-247BB9163EDF",
+                "name": "Juicing Room",
+                "parent_area": "B8501AFC-AD8F-4EBD-B733-87D9DA6AD713",
+                "child_area_ids": []
+            },
+            {
+                "id": "93179369-BD5D-42CE-A266-8F164D9C0700",
+                "name": "Nut Room",
+                "parent_area": "B8501AFC-AD8F-4EBD-B733-87D9DA6AD713",
+                "child_area_ids": [
+                    "51E7ABC4-7F01-42EF-A6F2-E8E3379FBB26"
+                ]
+            },
+            {
+                "id": "51E7ABC4-7F01-42EF-A6F2-E8E3379FBB26",
+                "name": "Garbage Chute",
+                "parent_area": "93179369-BD5D-42CE-A266-8F164D9C0700",
+                "child_area_ids": [
+                    "C9191B2C-08D1-48F0-8F19-FE4FA92A852A"
+                ]
+            },
+            {
+                "id": "C9191B2C-08D1-48F0-8F19-FE4FA92A852A",
+                "name": "Incinerator",
+                "parent_area": "51E7ABC4-7F01-42EF-A6F2-E8E3379FBB26",
+                "child_area_ids": []
+            },
+            {
+                "id": "A7DF2E8E-71DD-4C32-AE92-EE33E2D4DF18",
+                "name": "Wonkavision Studio",
+                "parent_area": "B8501AFC-AD8F-4EBD-B733-87D9DA6AD713",
+                "child_area_ids": []
+            },
+            {
+                "id": "BD506F8D-F4CD-4E19-ABCA-573808390FB6",
+                "name": "Mount Fudge",
+                "parent_area": "B8501AFC-AD8F-4EBD-B733-87D9DA6AD713",
+                "child_area_ids": [
+                    "36BFBBB6-15ED-4222-9528-9830434A59FC"
+                ]
+            },
+            {
+                "id": "36BFBBB6-15ED-4222-9528-9830434A59FC",
+                "name": "Rock Candy Mine",
+                "parent_area": "BD506F8D-F4CD-4E19-ABCA-573808390FB6",
+                "child_area_ids": []
+            }
+        ],
+        "doors": [
+            {
+                "id": "126A73D3-2148-4DA9-9332-867571884AA1",
+                "name": "Main Gate",
+                "parent_area": "6C4E2C5D-BBBB-4386-AA71-B7F56727433C",
+                "status": "open"
+            },
+            {
+                "id": "094F5C91-0E13-4712-8382-1B4B829C4111",
+                "name": "Factory Front Door",
+                "parent_area": "6C4E2C5D-BBBB-4386-AA71-B7F56727433C",
+                "status": "open"
+            },
+            {
+                "id": "4415D5B1-AA7D-4732-BEA6-99B610B2FDBF",
+                "name": "Factory Back Door",
+                "parent_area": "6C4E2C5D-BBBB-4386-AA71-B7F56727433C",
+                "status": "closed"
+            },
+            {
+                "id": "EA0F4EAA-5666-4439-9E5D-6A4FFEB578DF",
+                "name": "Secret Entrance Tunnel Grate",
+                "parent_area": "6C4E2C5D-BBBB-4386-AA71-B7F56727433C",
+                "status": "open"
+            },
+            {
+                "id": "EDFEAF67-E20B-40CD-B8AD-9F267B1AFBB3",
+                "name": "Chocolate Room Entrance",
+                "parent_area": "CBB8569D-C331-4629-A1F7-236BFA1A2822",
+                "status": "open"
+            },
+            {
+                "id": "FD9FFD2F-B8F4-4670-ACE3-82A1D6E09441",
+                "name": "Chocolate River Entrance",
+                "parent_area": "64F25F3B-0F65-45EE-92A7-2B53E58B5CDD",
+                "status": "closed"
+            },
+            {
+                "id": "FD86E996-9087-4B0B-A61D-CC821B7CCC9F",
+                "name": "Pipeline Maintenance Hatch #1",
+                "parent_area": "7EE29BBE-259C-402B-B870-7C32FC845674",
+                "status": "open"
+            },
+            {
+                "id": "98ED4AAB-8D39-430A-82B6-E22CF8ED4E24",
+                "name": "Pipeline Draining Hatch #1",
+                "parent_area": "7EE29BBE-259C-402B-B870-7C32FC845674",
+                "status": "closed"
+            },
+            {
+                "id": "01AF3DE8-FC26-4643-99CA-BD4F1D8FBA16",
+                "name": "Pipeline Drainage Hatch #42",
+                "parent_area": "24D54F49-1D8C-417A-9B43-AC12F43DE294",
+                "status": "open"
+            },
+            {
+                "id": "322E6284-9D47-4A9E-BB9C-51E4BD4CFAD3",
+                "name": "Oompa Loompa Feeding Tube",
+                "parent_area": "24D54F49-1D8C-417A-9B43-AC12F43DE294",
+                "status": "open"
+            },
+            {
+                "id": "01BF3FCD-6626-41B9-B09E-1BAE0DCCA88A",
+                "name": "Meadow Fields Hallway",
+                "parent_area": "F29B9474-CABC-46E3-8B75-66281ABFBA92",
+                "status": "open"
+            },
+            {
+                "id": "7FCE32EE-EE2D-46AA-8285-317EBA5D5F9C",
+                "name": "Rickety Wooden Door",
+                "parent_area": "EB3741EF-929D-430C-B637-EA5425ABB0E7",
+                "status": "open"
+            },
+            {
+                "id": "4D2B151E-C010-46A9-AAF3-E203E3779FC9",
+                "name": "Fear Tunnel Dock Entrance",
+                "parent_area": "A44424B0-3253-4EE7-9060-7C977F4840C8",
+                "status": "closed"
+            },
+            {
+                "id": "AB296B73-8C37-4549-AD03-26D35541F37E",
+                "name": "Entrance To The Absurd",
+                "parent_area": "A44424B0-3253-4EE7-9060-7C977F4840C8",
+                "status": "open"
+            },
+            {
+                "id": "78A2F6A7-A20B-4E99-BCB8-439C28D92825",
+                "name": "Juicing Room Main Entrance",
+                "parent_area": "A31CDB07-17EE-4F50-B635-247BB9163EDF",
+                "status": "closed"
+            },
+            {
+                "id": "BF8F4D8D-26AC-4650-85E0-3CD672B93EEB",
+                "name": "Juicer Entrance",
+                "parent_area": "A31CDB07-17EE-4F50-B635-247BB9163EDF",
+                "status": "closed"
+            },
+            {
+                "id": "25B59AFC-3E85-4793-815D-1E2B2ECD0253",
+                "name": "R&D Entrance",
+                "parent_area": "B8501AFC-AD8F-4EBD-B733-87D9DA6AD713",
+                "status": "open"
+            },
+            {
+                "id": "413CC597-47A5-4624-B409-9E1FFC85D325",
+                "name": "Portal To Forbidden Knowledge",
+                "parent_area": "B8501AFC-AD8F-4EBD-B733-87D9DA6AD713",
+                "status": "open"
+            },
+            {
+                "id": "90B28026-FDBF-4F52-AFE8-A5774B10DADD",
+                "name": "Wallpaper Room Main Entrance",
+                "parent_area": "57569BE4-FF4A-4C56-A274-A24CBB7E4672",
+                "status": "open"
+            },
+            {
+                "id": "85F4760A-995C-49CA-B835-6FB8985D9028",
+                "name": "Wallpaper Degreaser Entrance",
+                "parent_area": "57569BE4-FF4A-4C56-A274-A24CBB7E4672",
+                "status": "open"
+            },
+            {
+                "id": "ACBF07D7-83B7-4C2F-88E1-7B00AA44F780",
+                "name": "Fizzy Room Entrance",
+                "parent_area": "F33941A1-7623-4192-80E0-7B1511C17883",
+                "status": "open"
+            },
+            {
+                "id": "4F9F3DF2-5F07-4086-BE39-94F20AD7D8C8",
+                "name": "Exhaust Fan",
+                "parent_area": "F33941A1-7623-4192-80E0-7B1511C17883",
+                "status": "closed"
+            },
+            {
+                "id": "3C183F78-AF02-437E-B6B7-41D41A74A41D",
+                "name": "Degassing Chamber Blast Door",
+                "parent_area": "F33941A1-7623-4192-80E0-7B1511C17883",
+                "status": "closed"
+            },
+            {
+                "id": "CC46EA77-4326-4F41-BD5A-CD8510D208BF",
+                "name": "Nut Room Entrance",
+                "parent_area": "93179369-BD5D-42CE-A266-8F164D9C0700",
+                "status": "closed"
+            },
+            {
+                "id": "E4A3E9CE-F586-4892-810A-40BE8F352589",
+                "name": "Squirrel Entrance",
+                "parent_area": "93179369-BD5D-42CE-A266-8F164D9C0700",
+                "status": "closed"
+            },
+            {
+                "id": "80920DCD-B25D-4ADF-A2F8-834D92009EF6",
+                "name": "Garbage Chute Hatch",
+                "parent_area": "51E7ABC4-7F01-42EF-A6F2-E8E3379FBB26",
+                "status": "open"
+            },
+            {
+                "id": "E272979A-D541-4B7D-AB12-46FC9598186A",
+                "name": "Incinerator Chute Entrance",
+                "parent_area": "C9191B2C-08D1-48F0-8F19-FE4FA92A852A",
+                "status": "open"
+            },
+            {
+                "id": "F1222FCF-6599-44D4-913F-6A4F6773461D",
+                "name": "Furnace Door",
+                "parent_area": "C9191B2C-08D1-48F0-8F19-FE4FA92A852A",
+                "status": "closed"
+            },
+            {
+                "id": "B3831A80-1616-4E30-992F-8E738D549EF6",
+                "name": "Studio Entrance",
+                "parent_area": "A7DF2E8E-71DD-4C32-AE92-EE33E2D4DF18",
+                "status": "closed"
+            },
+            {
+                "id": "9EB36867-9AAD-4A3B-B436-0476CDC10624",
+                "name": "Broadcasting Camera #1",
+                "parent_area": "A7DF2E8E-71DD-4C32-AE92-EE33E2D4DF18",
+                "status": "open"
+            },
+            {
+                "id": "5B27A600-09E5-4F28-ACB9-A839215CDBD3",
+                "name": "Tunnel Entrance #1",
+                "parent_area": "BD506F8D-F4CD-4E19-ABCA-573808390FB6",
+                "status": "closed"
+            },
+            {
+                "id": "9DAF4306-CF30-469B-9C1A-8225F5504ED8",
+                "name": "Penuche Summit Entrance",
+                "parent_area": "BD506F8D-F4CD-4E19-ABCA-573808390FB6",
+                "status": "open"
+            },
+            {
+                "id": "2D8D7EA3-0AE4-4127-987F-C7A69726BDBF",
+                "name": "Candy Mine Entrance",
+                "parent_area": "36BFBBB6-15ED-4222-9528-9830434A59FC",
+                "status": "closed"
+            },
+            {
+                "id": "D58A97C1-C6D0-410F-BB7B-36BFC47F1BB1",
+                "name": "Crystalizer Entrance Door #7",
+                "parent_area": "36BFBBB6-15ED-4222-9528-9830434A59FC",
+                "status": "open"
+            }
+        ],
+        "access_rules": [
+            {
+                "id": "A81EAF69-E737-4DCB-925A-B4F27BD3C119",
+                "name": "sar-wonka",
+                "doors": [
+                    "126A73D3-2148-4DA9-9332-867571884AA1",
+                    "094F5C91-0E13-4712-8382-1B4B829C4111",
+                    "4415D5B1-AA7D-4732-BEA6-99B610B2FDBF",
+                    "EA0F4EAA-5666-4439-9E5D-6A4FFEB578DF",
+                    "EDFEAF67-E20B-40CD-B8AD-9F267B1AFBB3",
+                    "FD9FFD2F-B8F4-4670-ACE3-82A1D6E09441",
+                    "FD86E996-9087-4B0B-A61D-CC821B7CCC9F",
+                    "98ED4AAB-8D39-430A-82B6-E22CF8ED4E24",
+                    "01AF3DE8-FC26-4643-99CA-BD4F1D8FBA16",
+                    "322E6284-9D47-4A9E-BB9C-51E4BD4CFAD3",
+                    "01BF3FCD-6626-41B9-B09E-1BAE0DCCA88A",
+                    "7FCE32EE-EE2D-46AA-8285-317EBA5D5F9C",
+                    "4D2B151E-C010-46A9-AAF3-E203E3779FC9",
+                    "AB296B73-8C37-4549-AD03-26D35541F37E",
+                    "78A2F6A7-A20B-4E99-BCB8-439C28D92825",
+                    "BF8F4D8D-26AC-4650-85E0-3CD672B93EEB",
+                    "25B59AFC-3E85-4793-815D-1E2B2ECD0253",
+                    "413CC597-47A5-4624-B409-9E1FFC85D325",
+                    "90B28026-FDBF-4F52-AFE8-A5774B10DADD",
+                    "85F4760A-995C-49CA-B835-6FB8985D9028",
+                    "ACBF07D7-83B7-4C2F-88E1-7B00AA44F780",
+                    "4F9F3DF2-5F07-4086-BE39-94F20AD7D8C8",
+                    "3C183F78-AF02-437E-B6B7-41D41A74A41D",
+                    "CC46EA77-4326-4F41-BD5A-CD8510D208BF",
+                    "E4A3E9CE-F586-4892-810A-40BE8F352589",
+                    "80920DCD-B25D-4ADF-A2F8-834D92009EF6",
+                    "E272979A-D541-4B7D-AB12-46FC9598186A",
+                    "F1222FCF-6599-44D4-913F-6A4F6773461D",
+                    "B3831A80-1616-4E30-992F-8E738D549EF6",
+                    "9EB36867-9AAD-4A3B-B436-0476CDC10624",
+                    "5B27A600-09E5-4F28-ACB9-A839215CDBD3",
+                    "9DAF4306-CF30-469B-9C1A-8225F5504ED8",
+                    "2D8D7EA3-0AE4-4127-987F-C7A69726BDBF",
+                    "D58A97C1-C6D0-410F-BB7B-36BFC47F1BB1"
+                ]
+            },
+            {
+                "id": "186DD659-EC26-4AA2-8389-706E58284171",
+                "name": "sar-admin-oompas",
+                "doors": [
+                    "EA0F4EAA-5666-4439-9E5D-6A4FFEB578DF",
+                    "EDFEAF67-E20B-40CD-B8AD-9F267B1AFBB3",
+                    "FD9FFD2F-B8F4-4670-ACE3-82A1D6E09441",
+                    "FD86E996-9087-4B0B-A61D-CC821B7CCC9F",
+                    "98ED4AAB-8D39-430A-82B6-E22CF8ED4E24",
+                    "01AF3DE8-FC26-4643-99CA-BD4F1D8FBA16",
+                    "322E6284-9D47-4A9E-BB9C-51E4BD4CFAD3",
+                    "01BF3FCD-6626-41B9-B09E-1BAE0DCCA88A",
+                    "7FCE32EE-EE2D-46AA-8285-317EBA5D5F9C",
+                    "4D2B151E-C010-46A9-AAF3-E203E3779FC9",
+                    "AB296B73-8C37-4549-AD03-26D35541F37E",
+                    "78A2F6A7-A20B-4E99-BCB8-439C28D92825",
+                    "BF8F4D8D-26AC-4650-85E0-3CD672B93EEB",
+                    "25B59AFC-3E85-4793-815D-1E2B2ECD0253"
+                ]
+            },
+            {
+                "id": "1EA0370A-BD1F-45B6-BD83-B6029C162E75",
+                "name": "sar-oarsmen-oompas",
+                "doors": [
+                    "EA0F4EAA-5666-4439-9E5D-6A4FFEB578DF",
+                    "EDFEAF67-E20B-40CD-B8AD-9F267B1AFBB3",
+                    "FD9FFD2F-B8F4-4670-ACE3-82A1D6E09441",
+                    "FD86E996-9087-4B0B-A61D-CC821B7CCC9F",
+                    "98ED4AAB-8D39-430A-82B6-E22CF8ED4E24",
+                    "01AF3DE8-FC26-4643-99CA-BD4F1D8FBA16",
+                    "322E6284-9D47-4A9E-BB9C-51E4BD4CFAD3",
+                    "01BF3FCD-6626-41B9-B09E-1BAE0DCCA88A",
+                    "7FCE32EE-EE2D-46AA-8285-317EBA5D5F9C",
+                    "4D2B151E-C010-46A9-AAF3-E203E3779FC9"
+                ]
+            },
+            {
+                "id": "98C76BFA-AB50-4054-BCE1-F44B73C4A8BB",
+                "name": "sar-broadcasting-oompas",
+                "doors": [
+                    "EA0F4EAA-5666-4439-9E5D-6A4FFEB578DF",
+                    "25B59AFC-3E85-4793-815D-1E2B2ECD0253",
+                    "B3831A80-1616-4E30-992F-8E738D549EF6",
+                    "9EB36867-9AAD-4A3B-B436-0476CDC10624"
+                ]
+            },
+            {
+                "id": "072062CF-2299-4600-9FA9-D22444A89951",
+                "name": "sar-test-oompas-dclass",
+                "doors": [
+                    "EA0F4EAA-5666-4439-9E5D-6A4FFEB578DF",
+                    "25B59AFC-3E85-4793-815D-1E2B2ECD0253",
+                    "413CC597-47A5-4624-B409-9E1FFC85D325",
+                    "90B28026-FDBF-4F52-AFE8-A5774B10DADD",
+                    "ACBF07D7-83B7-4C2F-88E1-7B00AA44F780",
+                    "3C183F78-AF02-437E-B6B7-41D41A74A41D",
+                    "CC46EA77-4326-4F41-BD5A-CD8510D208BF",
+                    "B3831A80-1616-4E30-992F-8E738D549EF6",
+                    "9EB36867-9AAD-4A3B-B436-0476CDC10624",
+                    "5B27A600-09E5-4F28-ACB9-A839215CDBD3",
+                    "9DAF4306-CF30-469B-9C1A-8225F5504ED8",
+                    "2D8D7EA3-0AE4-4127-987F-C7A69726BDBF",
+                    "D58A97C1-C6D0-410F-BB7B-36BFC47F1BB1"
+                ]
+            },
+            {
+                "id": "885BD7F8-D398-4DD3-AF6A-C062EDB0BAA3",
+                "name": "sar-arcane-oompas",
+                "doors": [
+                    "EA0F4EAA-5666-4439-9E5D-6A4FFEB578DF",
+                    "AB296B73-8C37-4549-AD03-26D35541F37E",
+                    "413CC597-47A5-4624-B409-9E1FFC85D325",
+                    "9EB36867-9AAD-4A3B-B436-0476CDC10624"
+                ]
+            },
+            {
+                "id": "D9D45E69-7883-425B-AF4B-968B269BA444",
+                "name": "sar-miner-oompas",
+                "doors": [
+                    "EA0F4EAA-5666-4439-9E5D-6A4FFEB578DF",
+                    "25B59AFC-3E85-4793-815D-1E2B2ECD0253",
+                    "5B27A600-09E5-4F28-ACB9-A839215CDBD3",
+                    "9DAF4306-CF30-469B-9C1A-8225F5504ED8",
+                    "2D8D7EA3-0AE4-4127-987F-C7A69726BDBF",
+                    "D58A97C1-C6D0-410F-BB7B-36BFC47F1BB1"
+                ]
+            },
+            {
+                "id": "B536CAD6-2850-42D7-B6FA-C009C3AE6A02",
+                "name": "sar-squirrels",
+                "doors": [
+                    "EA0F4EAA-5666-4439-9E5D-6A4FFEB578DF",
+                    "CC46EA77-4326-4F41-BD5A-CD8510D208BF"
+                ]
+            },
+            {
+                "id": "EF5BD2D9-463E-4112-952A-A29917133B85",
+                "name": "sar-ticket-holder-access",
+                "doors": [
+                    "126A73D3-2148-4DA9-9332-867571884AA1",
+                    "094F5C91-0E13-4712-8382-1B4B829C4111",
+                    "EDFEAF67-E20B-40CD-B8AD-9F267B1AFBB3",
+                    "FD9FFD2F-B8F4-4670-ACE3-82A1D6E09441",
+                    "01BF3FCD-6626-41B9-B09E-1BAE0DCCA88A",
+                    "4D2B151E-C010-46A9-AAF3-E203E3779FC9",
+                    "AB296B73-8C37-4549-AD03-26D35541F37E",
+                    "25B59AFC-3E85-4793-815D-1E2B2ECD0253",
+                    "90B28026-FDBF-4F52-AFE8-A5774B10DADD",
+                    "ACBF07D7-83B7-4C2F-88E1-7B00AA44F780",
+                    "CC46EA77-4326-4F41-BD5A-CD8510D208BF",
+                    "B3831A80-1616-4E30-992F-8E738D549EF6"
+                ]
+            },
+            {
+                "id": "DC872B88-2D3C-4E1A-87E1-85D45D1503C9",
+                "name": "sar-declogging-oompas",
+                "doors": [
+                    "EA0F4EAA-5666-4439-9E5D-6A4FFEB578DF",
+                    "EDFEAF67-E20B-40CD-B8AD-9F267B1AFBB3",
+                    "FD9FFD2F-B8F4-4670-ACE3-82A1D6E09441",
+                    "98ED4AAB-8D39-430A-82B6-E22CF8ED4E24",
+                    "01AF3DE8-FC26-4643-99CA-BD4F1D8FBA16"
+                ]
+            },
+            {
+                "id": "729C11A7-4B4B-489D-845A-11879DAAE500",
+                "name": "sar-worker-oompas",
+                "doors": [
+                    "EA0F4EAA-5666-4439-9E5D-6A4FFEB578DF",
+                    "01BF3FCD-6626-41B9-B09E-1BAE0DCCA88A",
+                    "7FCE32EE-EE2D-46AA-8285-317EBA5D5F9C",
+                    "78A2F6A7-A20B-4E99-BCB8-439C28D92825",
+                    "BF8F4D8D-26AC-4650-85E0-3CD672B93EEB",
+                    "25B59AFC-3E85-4793-815D-1E2B2ECD0253"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{% extends "SecuriTree/base.html" %}
+
+{% block content %}
+ 
+    <style type="text/css">
+        ul {
+            list-style: none;
+            text-align: left;
+        }
+        h3 {
+            padding: 4px;
+            margin: 2px;
+            border: 1px solid black;
+        }
+        h1 {
+            color: #19865C;
+            margin: 30px;
+        }
+        main p {
+            line-height: 1.25;
+            margin: 15px;
+        }
+      button {
+        padding: 4px;
+        margin-top: 20px;
+        font-weight: 900;
+        border: 2px solid #19865C;
+        color: #19865C;
+      }
+      .door {
+            padding: 4px;
+            margin: 2px;
+            font-weight: 900;
+            font-style: italic;
+      }
+      .access {
+            padding: 2px;
+            margin: 2px;
+            font-weight: 900;
+            font-style: italic;
+      }
+    </style>
+
+    <main>
+        <a href="{% url 'SecuriTree:home' %}"><button> Return Back <--</button></a>
+        <h1>SECURITREE - Security Entity Hierarchy</h1>
+        {% if area_list %}
+            <ul>
+            {% for area in area_list %}
+                <li>
+                    <h3> {{ area.name }}</h3>
+                    <ul>
+                        <p>
+                            <span class="door"> DOORS: </span>
+                            {% for door in area.doors %}
+                                {{ door.name }} ({{ door.status}}),
+                            {% endfor %}
+                        </p>
+                        <p>
+                            <span class="access"> ACCESS RULES: </span>
+                            {% for accessrule in area.accessrules %}
+                                {{ accessrule }}
+                            {% endfor %}
+                        </p>
+                    </ul>
+                    <ul>
+                    {% for door in area.accessrules %}
+                        <li>{{ door.name }}</li>
+                    {% endfor %}
+                    </ul>
+                    {% include "SecuriTree/area_partial.html" with objects=area %}
+                </li>
+            {% endfor %}
+            </ul>
+        {% else %}
+            <p>No areas are available.</p>
+        {% endif %}
+    </main>
+{% endblock %}

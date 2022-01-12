@@ -1,0 +1,3 @@
+If a door is unlocked, anyone can use the door. If it is locked, only people in the door’s list of access rules are allowed to use the door
+    In the provided examples and screens, only the door name appears on the entity hierarchy. You will therefore either have to display the door id on the entity hierarchy or allow the user to search for a door id using the door name.
+    Your application does NOT have to provide functionality to register new users in your access management system.

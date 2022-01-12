@@ -1,0 +1,76 @@
+{
+    "registered_users": [
+        {
+            "username": "knopel",
+            "first_name": "Leslie",
+            "surname": "Knope",
+            "password": "jjsdiner"
+        },
+        {
+            "username": "dwyera",
+            "first_name": "Andy",
+            "surname": "Dwyer",
+            "password": "mouserat"
+        },
+        {
+            "username": "beaslyp",
+            "first_name": "Pam",
+            "surname": "Beasly",
+            "password": "jim"
+        },
+        {
+            "username": "ludgatea",
+            "first_name": "April",
+            "surname": "Ludgate",
+            "password": "mouserat"
+        },
+        {
+            "username": "baskinc",
+            "first_name": "Carole",
+            "surname": "Baskin",
+            "password": "sosavage"
+        },
+        {
+            "username": "schruted",
+            "first_name": "Dwight",
+            "surname": "Schrute",
+            "password": "bearsbeatsbattlestargalatica"
+        },
+        {
+            "username": "haverfordt",
+            "first_name": "Tom",
+            "surname": "Haverford",
+            "password": "treatyoself720"
+        },
+        {
+            "username": "scottm",
+            "first_name": "Michael",
+            "surname": "Scott",
+            "password": "worldsbestboss"
+        },
+        {
+            "username": "halpertj",
+            "first_name": "Jim",
+            "surname": "Halpert",
+            "password": "pam"
+        },
+        {
+            "username": "wyattb",
+            "first_name": "Ben",
+            "surname": "Wyatt",
+            "password": "itsabouthecones"
+        },
+        {
+            "username": "thegreyg",
+            "first_name": "Gandalf",
+            "surname": "The Grey",
+            "password": "flyyoufools"
+        },
+        {
+            "username": "potterh",
+            "first_name": "Harry",
+            "surname": "Potter",
+            "password": "scarhead"
+        }
+    ]
+}
