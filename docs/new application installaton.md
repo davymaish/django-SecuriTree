@@ -3,7 +3,7 @@
 
 1. Install Python
 
-    Get the latest version of Python at [Python Download](https://www.python.org/downloads/) or with your operating system’s package manager.
+    Get the latest version of Python at [Python Download Page](https://www.python.org/downloads/) or with your operating system’s package manager.
     You can verify that Python is installed by typing the following command in the terminal/cmd
 
    ```sh
@@ -78,7 +78,7 @@
 
 9. Set up a database¶
 
-    This application has been tested in both MYSQL and POSTGRESQL databases. Individual installation guide for each database can be found on docs/database.md folder. If you have your favourite database installed and configured continue to step 4.
+    This application has been tested in both MYSQL and POSTGRESQL databases. Individual installation guide for each database can be found on [docs/database.md](https://github.com/davymaish/django-SecuriTree/blob/master/docs/database.md) installation guide. If you have your favourite database installed and configured continue to step 10.
 
 10. Make migration Database
     
