@@ -47,13 +47,13 @@ at a client’s premises from one central location.
 
 ## Getting Started
 
-New to Django Framework? New to Python? Don't worry. We got you covered. If you are new to django and you want to install securiTree and try it out as a new application, we recommend you to follow the [New Application Installation](https://github.com/davymaish/django-SecuriTree/blob/master/docs/Requirement.md) guideline which will take you through the whole process of installing a fresh Securitree Application.
+New to Django Framework? New to Python? Don't worry. We got you covered. If you are new to django and you want to install securiTree and try it out as a new application, we recommend you to follow the [New Application Installation](https://github.com/davymaish/django-SecuriTree/blob/master/docs/new-application.md) guideline which will take you through the whole process of installing a fresh Securitree Application.
 
 If you have an existing Django Application and you would like to integrate SecuriTree Application into your project, don't worry, we got you covered too.  We recommend you to follow the [Installing Into An Existing Application](https://github.com/davymaish/django-SecuriTree/blob/master/docs/existing-application.md) guideline which will take you through the whole process fo installing Securitree Application into your project.
 
 ## Usage
 
-Detailed documentation on SecuriTree Functional and Non-Functional Requirement can be found at the [Requirement](https://github.com/davymaish/django-SecuriTree/blob/master/docs/new-application.md) file.
+Detailed documentation on SecuriTree Functional and Non-Functional Requirement can be found at the [Requirement](https://github.com/davymaish/django-SecuriTree/blob/master/docs/Requirement.md) file.
 
 ### View System Heirachy
 
