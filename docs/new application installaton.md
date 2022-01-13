@@ -76,7 +76,7 @@
         path('securitree/', include('SecuriTree.urls')),
     ```
 
-9. Set up a database¶
+9. Set up a Database
 
     This application has been tested in both MYSQL and POSTGRESQL databases. Individual installation guide for each database can be found on [docs/database.md](https://github.com/davymaish/django-SecuriTree/blob/master/docs/database.md) installation guide. If you have your favourite database installed and configured continue to step 10.
 
@@ -90,9 +90,9 @@
  
 11. Populate Database
 
-   The database SecuriTree tables as per at this step are empty. SecuriTree application comes bundled with dummy data in form of JSON files in the SecuriTree/fixtures directory which you can use to populate the database.
+    The database SecuriTree tables as per at this step are empty. SecuriTree application comes bundled with dummy data in form of JSON files in the SecuriTree/fixtures directory which you can use to populate the database. 
 
-   To populate users data run the following commands in the terminal in the project root directory:
+    To populate users data run the following commands in the terminal in the project root directory:
     
     ```sh
         python manage.py populateUserData SecuriTree/fixtures/registered_users.json
