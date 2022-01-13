@@ -37,29 +37,23 @@ at a client’s premises from one central location.
 
 ## Built With
 
-Visual Programming Languages
-  
-    - [html and css](http://www.w3.org/)
+- [html and css](http://www.w3.org/) : Visual Programming Languages
 
-Application Logic Programming Language
- 
-    - [Python](https://www.python.org/)
+- [Python](https://www.python.org/) : Application Logic Programming Language
 
-User Interface
-    
-    - [Web Page Interface](http://www.w3.org/)
+- [Web Page Interface](http://www.w3.org/) : User Interface
 
-Application Web Framework
-    
-    - Django [Django](https://docs.djangoproject.com)
+- Django [Django](https://docs.djangoproject.com) : Application Web Framework
 
 ## Getting Started
 
-Detailed documentation is in the "docs" directory. This application has only been tested in a linux operating system. Though the application might run on Windows OS, there is no official support to it.
+New to Django Framework? New to Python? Don't worry. We got you covered. If you are new to django and you want to install securiTree as a new application, we recommend you to follow the [New Application Installation](https://github.com/davymaish/django-SecuriTree/blob/master/docs/Requirement.md) guideline which will take you through the whole process fo installing a fresh Securitree Application.
 
-<!-- USAGE -->
+If you have an existing Django Application and you would like to integrate SecuriTree Application into your project, don't worry too, we got you covered.  We recommend you to follow the [Instal Into An Existing Application](https://github.com/davymaish/django-SecuriTree/blob/master/docs/existing-application.md) guideline which will take you through the whole process fo installing Securitree Application into your project.
 
 ## Usage
+
+Detailed documentation on SecuriTree Functional and Non-Functional Requirement can be found at [Requirement](https://github.com/davymaish/django-SecuriTree/blob/master/docs/new-application.md) file.
 
 ### View System Heirachy
 
@@ -82,7 +76,6 @@ Follow and answer all the question correctly. Once successful, open a web browse
 
 The admin dashboard contain all system wide admin privelleges to manage the application entities and other admin level functionality.
 
-
 ## Architectural Diagram
 
 Django is a high-level python-based free and open-source web framework that adapts and follows the model-template-views (MTV) architectural pattern. The diagram below represents the MTV architectural pattern.
@@ -101,6 +94,18 @@ The working of each component of the MTV Architecture is represented below.
 
 ## Why Django?
 
+Django is a popular web framework among Python programmers for its excellent features which are and not limited to:
+
+<ul>
+    <li>Simple syntax as it adapts MTV (model-template-views) core architecture;</li>
+    <li>It has “Batteries included” (comes with all the essentials needed to solve solving common cases);</li>
+    <li>It has an ORM (Object Relational Mapper);</li>
+    <li>It has HTTP libraries and Middleware support</li>
+    <li>It is cross-platform, meaning that your project can be based on Mac, Linux or PC;</li>
+    <li>It works with most major databases such as MYSQL and POSTGRESQL.</li>
+    <li>It’s fast and simple and impliments the DRY philosophy </li>
+    <li>Its secure and protect application from clickjacking, cross-site scripting,and SQL injection security attacks.</li>
+</ul>
 
 ## License
 
