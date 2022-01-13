@@ -1,9 +1,9 @@
 
-## Install a New Application
+## Installing a New Application
 
 1. Install Python
 
-    Get the latest version of Python at [Python Download](https://www.python.org/downloads/)or with your operating system’s package manager.
+    Get the latest version of Python at [Python Download](https://www.python.org/downloads/) or with your operating system’s package manager.
     You can verify that Python is installed by typing the following command in the terminal/cmd
 
    ```sh
@@ -14,7 +14,7 @@
 
     You can read the following article on how to install the latest version of django in your machine [Django Download Official Release](https://docs.djangoproject.com/en/4.0/topics/install/index.html#installing-official-release). 
 
-    Run the following command in the terminal to verify that django is installed in your machine.
+    Once successful, run the following command in the terminal to verify that django is installed in your machine.
 
    ```sh
         python -m django --version
@@ -22,7 +22,7 @@
 
 3. Install Virtual Environment On Linux OS
     
-    Django Applications run best in a vitual environment. However SecuriTree has only been tested on a linux virtual environment. If you are not using Linux OS you can skip step 4.
+    Django Applications run best in a vitual environment. However SecuriTree has only been tested on a linux virtual environment. If you are not using Linux OS you can skip this step and go to step 4.
 
     Open a new terminal window and run the following command to install a virtual environment
 
@@ -38,13 +38,13 @@
 
 4. Create a django app:
 
-    Create a new Django application
+    Run the following command to create a new Django application
 
     ```sh
         python -m django startproject epiuse
     ```
 
-5. Navigate into the project root directory
+5. Navigate into the project root directory like this:
 
     ```sh
         cd ~/epiuse
@@ -59,6 +59,7 @@
     ```
 
 7. Configure your SecuriTree Application
+   
     Open up epiuse/settings.py and add the following keys at the end of the file.
 
     ```sh
@@ -77,7 +78,7 @@
 
 9. Set up a database¶
 
-    This application has been tested in mysql and postgesql databases. Once you have choose your favourite database, consult the database installation information at docs folder. Individual installation guide for each database can be found on docs/database.md folder. If you have your favourite database installed and configured continue to step 4.
+    This application has been tested in both MYSQL and POSTGRESQL databases. Individual installation guide for each database can be found on docs/database.md folder. If you have your favourite database installed and configured continue to step 4.
 
 10. Make migration Database
     
@@ -89,7 +90,7 @@
  
 11. Populate Database
 
-   \*Note: The database SecuriTree tables as per now are empty. SecuriTree application comes bundled with dummy data in form of JSON files in the SecuriTree/fixtures directory which you can use to populate the database.
+   The database SecuriTree tables as per at this step are empty. SecuriTree application comes bundled with dummy data in form of JSON files in the SecuriTree/fixtures directory which you can use to populate the database.
 
    To populate users data run the following commands in the terminal in the project root directory:
     

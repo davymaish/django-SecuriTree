@@ -45,7 +45,7 @@ Follow the steps outlined below to integrate SecuriTree into your existing djang
  
 6. Populate Database
 
-   \*Note: The database SecuriTree tables as per now are empty. SecuriTree application comes bundled with dummy data in form of JSON files in the SecuriTree/fixtures directory which you can use to populate the database.
+   The database SecuriTree tables as at this step are empty. SecuriTree application comes bundled with dummy data in form of JSON files in the SecuriTree/fixtures directory which you can use to populate the database.
 
    To populate users data run the following commands in the terminal in the project root directory:
     
