@@ -28,7 +28,7 @@
 
 ## About The Project
 
-<img src="img/demo.jpeg" alt="demo" width="auto" height="auto">
+<img src="img/demo.png" alt="demo" width="auto" height="auto">
 
 SecuriTree is an access control management application that provides a visual tree view of the security and
 access control units installed in a security system. This application will allow authorised security operatives

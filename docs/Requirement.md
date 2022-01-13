@@ -97,3 +97,25 @@ The user interface should have:
     <li>Design simplicity</li>
     <li>Usability</li>
 </ul>
+
+
+## System Entities/Models 
+
+    Areas 
+        id,name,parent_area_id
+
+    Doors
+        id,name,parent_area,status
+
+    Access rules
+        id,name
+
+    User
+        username,first_name,surname,password
+
+## Entities Relationships
+
+    Many Doors to one Area
+    Many Access Rules to Many Doors
+    Many Access Rules to Many Users
+    Many Access Rules to Many Areas Through Doors
