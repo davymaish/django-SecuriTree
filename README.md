@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/iamdanre/SecuriTree">
-    <img src="img/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://www.epiuse.com">
+    <img src="https://www.epiuse.com/wp-content/uploads/2018/10/Full-Logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">SecuriTree</h3>
@@ -37,23 +37,23 @@ at a client’s premises from one central location.
 
 ## Built With
 
-- [html and css](http://www.w3.org/) : Visual Programming Languages
+- [Html and css](http://www.w3.org/) : Visual Programming Languages
 
 - [Python](https://www.python.org/) : Application Logic Programming Language
 
 - [Web Page Interface](http://www.w3.org/) : User Interface
 
-- Django [Django](https://docs.djangoproject.com) : Application Web Framework
+- [Django](https://docs.djangoproject.com) : Application Web Framework
 
 ## Getting Started
 
-New to Django Framework? New to Python? Don't worry. We got you covered. If you are new to django and you want to install securiTree as a new application, we recommend you to follow the [New Application Installation](https://github.com/davymaish/django-SecuriTree/blob/master/docs/Requirement.md) guideline which will take you through the whole process fo installing a fresh Securitree Application.
+New to Django Framework? New to Python? Don't worry. We got you covered. If you are new to django and you want to install securiTree and try it out as a new application, we recommend you to follow the [New Application Installation](https://github.com/davymaish/django-SecuriTree/blob/master/docs/Requirement.md) guideline which will take you through the whole process of installing a fresh Securitree Application.
 
-If you have an existing Django Application and you would like to integrate SecuriTree Application into your project, don't worry too, we got you covered.  We recommend you to follow the [Instal Into An Existing Application](https://github.com/davymaish/django-SecuriTree/blob/master/docs/existing-application.md) guideline which will take you through the whole process fo installing Securitree Application into your project.
+If you have an existing Django Application and you would like to integrate SecuriTree Application into your project, don't worry, we got you covered too.  We recommend you to follow the [Installing Into An Existing Application](https://github.com/davymaish/django-SecuriTree/blob/master/docs/existing-application.md) guideline which will take you through the whole process fo installing Securitree Application into your project.
 
 ## Usage
 
-Detailed documentation on SecuriTree Functional and Non-Functional Requirement can be found at [Requirement](https://github.com/davymaish/django-SecuriTree/blob/master/docs/new-application.md) file.
+Detailed documentation on SecuriTree Functional and Non-Functional Requirement can be found at the [Requirement](https://github.com/davymaish/django-SecuriTree/blob/master/docs/new-application.md) file.
 
 ### View System Heirachy
 
@@ -109,4 +109,4 @@ Django is a popular web framework among Python programmers for its excellent fea
 
 ## License
 
-Distributed under the MIT License.
+Distributed under the [BSD 2-Clause License](https://github.com/davymaish/django-SecuriTree/blob/master/LICENSE).
