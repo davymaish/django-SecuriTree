@@ -15,17 +15,12 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-        <li><a href="#architectural-diagram">Architecture Diagram</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#built-with">Built With</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#architectural-diagram">Architecture Diagram</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -40,28 +35,23 @@ access control units installed in a security system. This application will allow
 to monitor and manage each physical security and access control unit (areas, doors, elevators, floors, etc.),
 at a client’s premises from one central location.
 
-### Built With
+## Built With
 
-- Visual Programming Languages
+Visual Programming Languages
   
-    [html and css] (http://www.w3.org/)
+    - [html and css](http://www.w3.org/)
 
-- Application Logic Programming Language
+Application Logic Programming Language
  
-    Python (https://www.python.org/)
+    - [Python](https://www.python.org/)
 
-- User Interface
+User Interface
     
-    Web Page Interface (http://www.w3.org/)
+    - [Web Page Interface](http://www.w3.org/)
 
-- Application Web Framework
+Application Web Framework
     
-    Django [Django](https://docs.djangoproject.com)
-
-### Architectural Diagram
-
-<img src="img/model-view-template.jpeg" alt="demo" width="auto" height="auto">
-<!-- GETTING STARTED -->
+    - Django [Django](https://docs.djangoproject.com)
 
 ## Getting Started
 
@@ -86,14 +76,27 @@ To create a user who can login to the admin site, run the following command:
     ``
 
 Now, open a web browser and go to “/admin/” on your local domain – e.g., http://127.0.0.1:8000/admin/ to access the admin dashboard.
+
+
+
+## Architectural Diagram
+
+Django is a high-level python-based free and open-source web framework that adapts and follows the model-template-views (MTV) architectural pattern. The diagram below represents the MTV architectural pattern.
+
+<img src="img/model-view-template.jpeg" alt="demo" width="auto" height="auto">
+
+The Model contains the logical file structure of the project and is the middleware & data handler between database and view. It defines data formats as well as storage and retrieval of data from the database.
+
+Views act as a link between the Model data and the Templates. It communicates with the database and transfers data to the template for viewing.
+
+Templates are responsible for the entire User Interface completely. It handles all the static parts of the webpage along with the HTML, which the browser displays and renders to the user.
+
+The working of each component of the MTV Architecture is represented below.
+
+<img src="img/mtv-structure.jpeg" alt="demo" width="auto" height="auto">
+
 <!-- LICENSE -->
 
 ## License
 
 Distributed under the MIT License.
-
-<!-- CONTACT -->
-
-## Contact
-
-Project Link: [https://github.com/iamdanre/SecuriTree](https://github.com/davymaish/SecuriTree)
