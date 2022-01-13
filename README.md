@@ -28,7 +28,7 @@
 
 ## About The Project
 
-<img src="img/demo.gif" alt="demo" width="auto" height="auto">
+<img src="img/demo.jpeg" alt="demo" width="auto" height="auto">
 
 SecuriTree is an access control management application that provides a visual tree view of the security and
 access control units installed in a security system. This application will allow authorised security operatives
@@ -63,20 +63,24 @@ Detailed documentation is in the "docs" directory. This application has only bee
 
 ### View System Heirachy
 
+The SecuriTree application allows an authenticated and authorised user to view all areas, doors and access rules in the client security system as a tree hierarchy.
 
 ### Door Management
 
+The SecuriTree application allows a user to change the state of any door in the system between Locked and Unlocked. It has also an added functionality of viewing all doors through which a user can view all doors including their status and toggle between locking and unlocking.
 
-### Creating an admin user
+### Super Admin User
+
+This SecuriTree application has an added functionality of super admin user. This admin user is able to add and modify the application content using a user friendly and highly interactive admin dashboard.
 
 To create a user who can login to the admin site, run the following command:
 
-    ``
-    python manage.py createsuperuser
-    ``
+   ```sh
+        python manage.py createsuperuser
+   ```
+Follow and answer all the question correctly. Once successful, open a web browser and go to “/admin/” on your local domain – e.g., http://127.0.0.1:8000/admin/ to access the admin dashboard.
 
-Now, open a web browser and go to “/admin/” on your local domain – e.g., http://127.0.0.1:8000/admin/ to access the admin dashboard.
-
+The admin dashboard contain all system wide admin privelleges to manage the application entities and other admin level functionality.
 
 
 ## Architectural Diagram
@@ -95,7 +99,8 @@ The working of each component of the MTV Architecture is represented below.
 
 <img src="img/mtv-structure.jpeg" alt="demo" width="auto" height="auto">
 
-<!-- LICENSE -->
+## Why Django?
+
 
 ## License
 
