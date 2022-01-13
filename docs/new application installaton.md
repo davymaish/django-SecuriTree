@@ -113,4 +113,4 @@ If you followed the above steps successfully, your web application is now instal
 
 Navigate to [http://127.0.0.1:8000/securitree/](http://127.0.0.1:8000/securitree/) in your browser to use the application.
 
-The [securitree zip file](https://github.com/davymaish/django-SecuriTree/blob/master/docs/securitree.zip) contains the full directory structure and files of EPI-USE SecuriTree Application. You can download the file, unzip it and try it on your linux OS. Your new application directory structure and setting configuration should match the one on this file.
+The [securitree zip file](https://github.com/davymaish/django-SecuriTree/blob/master/docs/securitree.zip) contains the full directory structure and files of EPI-USE SecuriTree Application. You can download the file, unzip it and try it on your linux OS. Your new application directory structure and settings configuration should match the one on this file.

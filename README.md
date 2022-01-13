@@ -42,11 +42,25 @@ at a client’s premises from one central location.
 
 ### Built With
 
-- [Django](https://docs.djangoproject.com)
+- Visual Programming Languages
+  
+    [html and css] (http://www.w3.org/)
+
+- Application Logic Programming Language
+ 
+    Python (https://www.python.org/)
+
+- User Interface
+    
+    Web Page Interface (http://www.w3.org/)
+
+- Application Web Framework
+    
+    Django [Django](https://docs.djangoproject.com)
 
 ### Architectural Diagram
 
-<img src="img/diagram.jpeg" alt="demo" width="auto" height="auto">
+<img src="img/model-view-template.jpeg" alt="demo" width="auto" height="auto">
 <!-- GETTING STARTED -->
 
 ## Getting Started
